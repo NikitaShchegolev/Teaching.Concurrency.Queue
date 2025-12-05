@@ -18,3 +18,14 @@ C:\Users\n.shchegolev\source\repos\My_Teaching.Concurrency.Queue\My_Teaching.Con
 C:\Users\n.shchegolev\source\repos\My_Teaching.Concurrency.Queue\My_Teaching.Concurrency.Queue\My_Teaching.Concurrency.Queue\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\n.shchegolev\source\repos\My_Teaching.Concurrency.Queue\My_Teaching.Concurrency.Queue\My_Teaching.Concurrency.Queue\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.dll
 C:\Users\n.shchegolev\source\repos\My_Teaching.Concurrency.Queue\My_Teaching.Concurrency.Queue\My_Teaching.Concurrency.Queue\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.pdb
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\bin\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.deps.json
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\bin\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.dll
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\bin\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.pdb
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.csproj.AssemblyReference.cache
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.AssemblyInfoInputs.cache
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.AssemblyInfo.cs
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.sourcelink.json
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.dll
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.DataAccess\obj\Debug\netcoreapp3.1\Teaching.Concurrency.Queue.DataAccess.pdb

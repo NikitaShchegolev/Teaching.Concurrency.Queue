@@ -10,47 +10,58 @@ namespace Teaching.Concurrency.Queue.Scheduler
     {
         static void Main(string[] args)
         {
-            // Инициализация базы данных
-            InitializeDatabase();
+            Console.WriteLine($"Scheduler started with process Id {Process.GetCurrentProcess().Id}...");
+            Console.WriteLine("Generating queue...");
 
-            // Получение типа планировщика из аргументов командной строки
-            var schedulerType = GetSchedulerType(args);
+            GenerateQueue();
+            ShowQueueInConsole(10);
 
-            // Создание и запуск планировщика
-            var scheduler = CreateScheduler(schedulerType);
+            Console.WriteLine("Queue generated...");
+
+            var scheduler = GetScheduler();
+
             scheduler.ProcessQueue();
+
+            ShowQueueInConsole(10);
         }
 
-        // Метод для инициализации базы данных
-        private static void InitializeDatabase()
+        static IScheduler GetScheduler()
+        {
+            //Простой планировщик с последовательной обработкой
+            //return new SimpleScheduler();
+
+            //Планировщик с параллельной обработкой на процессах
+            ///return new ProcessesScheduler();
+
+            //Планировщик с параллельной обработкой на потоках
+            //return new ThreadsScheduler();
+
+            //Планировщик с параллельной обработкой на потоках
+            //return new ThreadPoolScheduler();
+
+            //Планировщик с параллельной обработкой на потоках
+            //return new ThreadsBackgroundForegroundScheduler();
+
+            //Планировщик с параллельной обработкой на tasks
+            return new TasksScheduler();
+        }
+
+        static void GenerateQueue()
         {
             using var dataContext = new DataContext();
-            var dbInitializer = new DbInitializer(dataContext);
-            dbInitializer.Initialize();
+            new DbInitializer(dataContext).Initialize();
         }
 
-        // Метод для получения типа планировщика из аргументов командной строки
-        private static string GetSchedulerType(string[] args)
+        static void ShowQueueInConsole(int consoleSize)
         {
-            if (args == null || !args.Any())
-                return "simple"; // По умолчанию используем простой планировщик
-
-            return args[0].ToLower();
-        }
-
-        // Метод для создания планировщика по типу
-        private static IScheduler CreateScheduler(string schedulerType)
-        {
-            return schedulerType switch
+            using var dataContext = new DataContext();
+            foreach (var item in dataContext.MessageQueue.OrderBy(x => x.CreateDate).Take(consoleSize))
             {
-                "simple" => new SimpleScheduler(),
-                "threads" => new ThreadsScheduler(),
-                "threadpool" => new ThreadPoolScheduler(),
-                "tasks" => new TasksScheduler(),
-                "processes" => new ProcessesScheduler(),
-                "background" => new ThreadsBackgroundForegroundScheduler(),
-                _ => new SimpleScheduler() // По умолчанию используем простой планировщик
-            };
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine($"Queue count: {dataContext.MessageQueue.Count()}");
+            Console.WriteLine($"Showed in console: {consoleSize}");
         }
     }
 }

@@ -1,8 +1,0 @@
-is_global = true
-build_property.RootNamespace = Otus.Teaching.Concurrency.Queue.Access
-build_property.ProjectDir = C:\Users\n.shchegolev\source\repos\My_Teaching.Concurrency.Queue\Teaching.Concurrency.Queue\src\Otus.Teaching.Concurrency.Queue.DataAccess\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 

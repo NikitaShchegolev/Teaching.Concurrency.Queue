@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
     "\\src\\Otus.Teaching.Concurrency.Queue.Handler",
     "\\src\\Otus.Teaching.Concurrency.Queue.Handler.Process",
     "\\src\\Otus.Teaching.Concurrency.Queue.Scheduler"
   ],
-  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }

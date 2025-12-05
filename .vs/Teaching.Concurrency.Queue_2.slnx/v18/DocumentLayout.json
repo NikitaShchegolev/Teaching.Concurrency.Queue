@@ -98,8 +98,7 @@
               "RelativeToolTip": "src\\Otus.Teaching.Concurrency.Queue.Handler.Process\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T14:17:00.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T14:17:00.55Z"
             },
             {
               "$type": "Document",
@@ -111,8 +110,7 @@
               "RelativeToolTip": "src\\Otus.Teaching.Concurrency.Queue.Handler\\QueueHandlerFactory.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T14:16:38.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T14:16:38.883Z"
             },
             {
               "$type": "Document",
@@ -122,7 +120,7 @@
               "RelativeDocumentMoniker": "src\\Otus.Teaching.Concurrency.Queue.Scheduler\\Program.cs",
               "ToolTip": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\src\\Otus.Teaching.Concurrency.Queue.Scheduler\\Program.cs",
               "RelativeToolTip": "src\\Otus.Teaching.Concurrency.Queue.Scheduler\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T14:13:42.82Z",
               "EditorCaption": ""

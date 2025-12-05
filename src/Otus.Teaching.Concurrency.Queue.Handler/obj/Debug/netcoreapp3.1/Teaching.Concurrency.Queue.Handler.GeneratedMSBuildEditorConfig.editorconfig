@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Teaching.Concurrency.Queue.Handler
+build_property.ProjectDir = C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\src\Otus.Teaching.Concurrency.Queue.Handler\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

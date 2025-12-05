@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2661A048-8E11-4819-982F-05EC2C5EDE0B}|Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.csproj|c:\\users\\n.shchegolev\\source\\repos\\teaching.concurrency.queue_2\\teaching.concurrency.queue\\teaching.concurrency.queue\\src\\otus.teaching.concurrency.queue.scheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2661A048-8E11-4819-982F-05EC2C5EDE0B}|Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.csproj|solutionrelative:teaching.concurrency.queue\\src\\otus.teaching.concurrency.queue.scheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B02D6141-0293-41AB-A46D-744F4B6C8D1A}|Teaching.Concurrency.Queue.Handler.Process\\Teaching.Concurrency.Queue.Handler.Process.csproj|c:\\users\\n.shchegolev\\source\\repos\\teaching.concurrency.queue_2\\teaching.concurrency.queue\\teaching.concurrency.queue.handler.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02D6141-0293-41AB-A46D-744F4B6C8D1A}|Teaching.Concurrency.Queue.Handler.Process\\Teaching.Concurrency.Queue.Handler.Process.csproj|solutionrelative:teaching.concurrency.queue.handler.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC61E5B-CD8F-4F82-98D6-B901677033BE}|Teaching.Concurrency.Queue.DataAccess\\Teaching.Concurrency.Queue.DataAccess.csproj|c:\\users\\n.shchegolev\\source\\repos\\teaching.concurrency.queue_2\\teaching.concurrency.queue\\teaching.concurrency.queue.dataaccess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC61E5B-CD8F-4F82-98D6-B901677033BE}|Teaching.Concurrency.Queue.DataAccess\\Teaching.Concurrency.Queue.DataAccess.csproj|solutionrelative:teaching.concurrency.queue.dataaccess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D55D76-CDF5-4317-873B-96E34DFC7CD2}|Teaching.Concurrency.Queue.Scheduler\\Teaching.Concurrency.Queue.Scheduler.csproj|c:\\users\\n.shchegolev\\source\\repos\\teaching.concurrency.queue_2\\teaching.concurrency.queue\\teaching.concurrency.queue.scheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D55D76-CDF5-4317-873B-96E34DFC7CD2}|Teaching.Concurrency.Queue.Scheduler\\Teaching.Concurrency.Queue.Scheduler.csproj|solutionrelative:teaching.concurrency.queue.scheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A40DC423-2AD9-425F-A96C-C1894645FE61}|Teaching.Concurrency.Queue.Handler\\Teaching.Concurrency.Queue.Handler.csproj|c:\\users\\n.shchegolev\\source\\repos\\teaching.concurrency.queue_2\\teaching.concurrency.queue\\teaching.concurrency.queue.handler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A40DC423-2AD9-425F-A96C-C1894645FE61}|Teaching.Concurrency.Queue.Handler\\Teaching.Concurrency.Queue.Handler.csproj|solutionrelative:teaching.concurrency.queue.handler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue\\obj\\Debug\\net10.0\\Teaching.Concurrency.Queue.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Teaching.Concurrency.Queue\\obj\\Debug\\net10.0\\Teaching.Concurrency.Queue.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2661A048-8E11-4819-982F-05EC2C5EDE0B}|Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.csproj|c:\\users\\n.shchegolev\\source\\repos\\teaching.concurrency.queue_2\\teaching.concurrency.queue\\teaching.concurrency.queue\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{2661A048-8E11-4819-982F-05EC2C5EDE0B}|Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.csproj|solutionrelative:teaching.concurrency.queue\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue\\src\\Otus.Teaching.Concurrency.Queue.Scheduler\\Program.cs",
-              "RelativeDocumentMoniker": "Teaching.Concurrency.Queue\\src\\Otus.Teaching.Concurrency.Queue.Scheduler\\Program.cs",
-              "ToolTip": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue\\src\\Otus.Teaching.Concurrency.Queue.Scheduler\\Program.cs",
-              "RelativeToolTip": "Teaching.Concurrency.Queue\\src\\Otus.Teaching.Concurrency.Queue.Scheduler\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wB8AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Scheduler\\Program.cs",
+              "RelativeDocumentMoniker": "Teaching.Concurrency.Queue.Scheduler\\Program.cs",
+              "ToolTip": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Scheduler\\Program.cs",
+              "RelativeToolTip": "Teaching.Concurrency.Queue.Scheduler\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T14:24:44.938Z",
+              "WhenOpened": "2025-12-05T14:35:17.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.DataAccess\\Program.cs",
+              "RelativeDocumentMoniker": "Teaching.Concurrency.Queue.DataAccess\\Program.cs",
+              "ToolTip": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.DataAccess\\Program.cs",
+              "RelativeToolTip": "Teaching.Concurrency.Queue.DataAccess\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:34:00.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Handler\\Program.cs",
+              "RelativeDocumentMoniker": "Teaching.Concurrency.Queue.Handler\\Program.cs",
+              "ToolTip": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Handler\\Program.cs",
+              "RelativeToolTip": "Teaching.Concurrency.Queue.Handler\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:33:23.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Handler.Process\\Program.cs",
+              "RelativeDocumentMoniker": "Teaching.Concurrency.Queue.Handler.Process\\Program.cs",
+              "ToolTip": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Handler.Process\\Program.cs",
+              "RelativeToolTip": "Teaching.Concurrency.Queue.Handler.Process\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:32:48.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Teaching.Concurrency.Queue.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue\\obj\\Debug\\net10.0\\Teaching.Concurrency.Queue.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Teaching.Concurrency.Queue\\obj\\Debug\\net10.0\\Teaching.Concurrency.Queue.AssemblyInfo.cs",
@@ -48,19 +95,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T14:24:28.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue\\.gitignore",
-              "RelativeDocumentMoniker": "Teaching.Concurrency.Queue\\.gitignore",
-              "ToolTip": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue\\.gitignore",
-              "RelativeToolTip": "Teaching.Concurrency.Queue\\.gitignore",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-05T14:22:23.753Z",
               "EditorCaption": ""
             },
             {

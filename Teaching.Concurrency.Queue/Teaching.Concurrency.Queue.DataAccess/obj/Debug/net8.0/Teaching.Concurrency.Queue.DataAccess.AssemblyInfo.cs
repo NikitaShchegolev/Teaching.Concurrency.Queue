@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Teaching.Concurrency.Queue.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+702e9d7049d3725841cb883a2d0ceb59ef413723")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc78a5a7e20e4499667c0883a790f9e45cc4f131")]
 [assembly: System.Reflection.AssemblyProductAttribute("Teaching.Concurrency.Queue.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Teaching.Concurrency.Queue.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

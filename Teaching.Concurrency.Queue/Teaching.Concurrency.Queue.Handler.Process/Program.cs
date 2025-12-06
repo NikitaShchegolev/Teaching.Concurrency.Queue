@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading;
 
 using Teaching.Concurrency.Queue.DataAccess;
-using Teaching.Concurrency.Queue.Handler;
 
 namespace Teaching.Concurrency.Queue.Handler.Process
 {
@@ -22,7 +20,7 @@ namespace Teaching.Concurrency.Queue.Handler.Process
             stopWatch.Start();
 
             Console.WriteLine($"Handling queue for type: {_messageType}...");
-            
+
             var queueHandler = QueueHandlerFactory.GetTypeQueueHandler(_messageType);
 
             queueHandler.Handle();

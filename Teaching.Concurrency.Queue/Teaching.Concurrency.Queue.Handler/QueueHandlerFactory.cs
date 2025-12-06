@@ -1,11 +1,9 @@
-﻿using System;
-
+﻿using Teaching.Concurrency.Queue.DataAccess;
+using Teaching.Concurrency.Queue.Handler.QueueHandlers;
+using Teaching.Concurrency.Queue.Handler.MessageHandlers;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-
-using Teaching.Concurrency.Queue.DataAccess;
-using Teaching.Concurrency.Queue.Handler.MessageHandlers;
-using Teaching.Concurrency.Queue.Handler.QueueHandlers;
+using System;
 
 namespace Teaching.Concurrency.Queue.Handler
 {

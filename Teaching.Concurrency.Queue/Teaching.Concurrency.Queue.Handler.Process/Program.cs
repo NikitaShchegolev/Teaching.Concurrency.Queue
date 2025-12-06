@@ -23,6 +23,7 @@ namespace Teaching.Concurrency.Queue.Handler.Process
 
             Console.WriteLine($"Handling queue for type: {_messageType}...");
 
+            QueueHandlerFactory queueHandlerFactory  = new QueueHandlerFactory();
             var queueHandler = QueueHandlerFactory.GetTypeQueueHandler(_messageType);
 
             queueHandler.Handle();

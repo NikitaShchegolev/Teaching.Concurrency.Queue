@@ -1,15 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>8</LangVersion>
+	</PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Teaching.Concurrency.Queue.DataAccess\Teaching.Concurrency.Queue.DataAccess.csproj" />
-    <ProjectReference Include="..\Teaching.Concurrency.Queue.Scheduler\Teaching.Concurrency.Queue.Scheduler.csproj" />
   </ItemGroup>
 
 </Project>

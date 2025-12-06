@@ -5,10 +5,10 @@ using System.Linq;
 using System.Threading;
 
 using Teaching.Concurrency.Queue.Handler.QueueHandlers;
-using Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.DataAccess;
-using Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Handler;
+using Teaching.Concurrency.Queue.DataAccess;
+using Teaching.Concurrency.Queue.Handler;
 
-namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Scheduler.Schedulers
+namespace Teaching.Concurrency.Queue.Scheduler.Schedulers
 {
     public class ThreadsScheduler : IScheduler
     {

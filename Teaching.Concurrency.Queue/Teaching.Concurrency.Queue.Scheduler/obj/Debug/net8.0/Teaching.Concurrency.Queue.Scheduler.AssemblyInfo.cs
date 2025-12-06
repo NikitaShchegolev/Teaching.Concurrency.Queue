@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Teaching.Concurrency.Queue.Scheduler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+702e9d7049d3725841cb883a2d0ceb59ef413723")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+079f53ad324d78f1e430a3ec3aec69f02edf183f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Teaching.Concurrency.Queue.Scheduler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Teaching.Concurrency.Queue.Scheduler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

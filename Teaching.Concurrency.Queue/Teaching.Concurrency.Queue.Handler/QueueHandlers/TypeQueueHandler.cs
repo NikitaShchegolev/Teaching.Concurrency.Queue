@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
-using System.Threading.Tasks;
 
 using Teaching.Concurrency.Queue.DataAccess;
 using Teaching.Concurrency.Queue.Handler.MessageHandlers;
 
 namespace Teaching.Concurrency.Queue.Handler.QueueHandlers
 {
-    public class TypeQueueHandler: IQueueHandler
+    public class TypeQueueHandler : IQueueHandler
     {
         private readonly IQueueMessageHandler _messageHandler;
         private readonly MessageQueueItemType _type;
@@ -39,11 +37,11 @@ namespace Teaching.Concurrency.Queue.Handler.QueueHandlers
                 // Обрабатываем каждое сообщение.
                 _messageHandler.Handle(message);
             }
-            
+
             // Удаляем обработанные сообщения из очереди и сохраняем изменения.
             dataContext.MessageQueue.RemoveRange(messages);
             dataContext.SaveChanges();
-            
+
             Console.WriteLine($"Handled messages: {messages.Count}");
         }
     }

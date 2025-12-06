@@ -18,7 +18,7 @@ namespace Teaching.Concurrency.Queue.Handler
         {
             return new SimpleQueueHandler(new FakeMessageHandler(HandlingDelayMilliseconds));
         }
-        
+
         // Метод для создания обработчика очереди для определенного типа сообщений
         public static IQueueHandler GetTypeQueueHandler(MessageQueueItemType type)
         {

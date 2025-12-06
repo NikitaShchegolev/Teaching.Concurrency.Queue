@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using System.Linq;
 
 using Teaching.Concurrency.Queue.DataAccess;
 using Teaching.Concurrency.Queue.Handler.MessageHandlers;

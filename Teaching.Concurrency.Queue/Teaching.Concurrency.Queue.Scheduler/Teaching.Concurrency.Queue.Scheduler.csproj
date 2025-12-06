@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Teaching.Concurrency.Queue.DataAccess\Teaching.Concurrency.Queue.DataAccess.csproj" />
+    <ProjectReference Include="..\Teaching.Concurrency.Queue.Handler\Teaching.Concurrency.Queue.Handler.csproj" />
   </ItemGroup>
 
 </Project>

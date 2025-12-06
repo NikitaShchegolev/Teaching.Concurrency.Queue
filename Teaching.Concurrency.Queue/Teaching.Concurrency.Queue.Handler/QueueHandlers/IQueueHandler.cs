@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Handler.QueueHandlers
+namespace Teaching.Concurrency.Queue.Handler.QueueHandlers
 {
     public interface IQueueHandler
     {

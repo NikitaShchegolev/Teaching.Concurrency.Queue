@@ -1,0 +1,5 @@
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\Teaching.Concurrency.Queue\Teaching.Concurrency.Queue.DataAccess\obj\Debug\net10.0\Teaching.Concurrency.Queue.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\Teaching.Concurrency.Queue\Teaching.Concurrency.Queue.DataAccess\obj\Debug\net10.0\Teaching.Concurrency.Queue.DataAccess.AssemblyInfoInputs.cache
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\Teaching.Concurrency.Queue\Teaching.Concurrency.Queue.DataAccess\obj\Debug\net10.0\Teaching.Concurrency.Queue.DataAccess.AssemblyInfo.cs
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\Teaching.Concurrency.Queue\Teaching.Concurrency.Queue.DataAccess\obj\Debug\net10.0\Teaching.Concurrency.Queue.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\n.shchegolev\source\repos\Teaching.Concurrency.Queue_2\Teaching.Concurrency.Queue\Teaching.Concurrency.Queue.DataAccess\obj\Debug\net10.0\Teaching.Concurrency.Queue.DataAccess.sourcelink.json

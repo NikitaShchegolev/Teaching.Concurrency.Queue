@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Teaching.Concurrency.Queue.DataAccess\Teaching.Concurrency.Queue.DataAccess.csproj" />
+    <ProjectReference Include="..\Teaching.Concurrency.Queue.Scheduler\Teaching.Concurrency.Queue.Scheduler.csproj" />
+  </ItemGroup>
+
 </Project>

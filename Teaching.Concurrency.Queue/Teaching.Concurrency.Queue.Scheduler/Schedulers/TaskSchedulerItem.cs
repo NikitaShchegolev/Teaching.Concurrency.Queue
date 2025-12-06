@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-using Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.DataAccess;
+using Teaching.Concurrency.Queue.DataAccess;
 
 namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Scheduler.Schedulers
 {

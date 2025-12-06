@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Teaching.Concurrency.Queue.DataAccess\Teaching.Concurrency.Queue.DataAccess.csproj" />
+    <ProjectReference Include="..\Teaching.Concurrency.Queue.Handler.Process\Teaching.Concurrency.Queue.Handler.Process.csproj" />
+    <ProjectReference Include="..\Teaching.Concurrency.Queue.Scheduler\Teaching.Concurrency.Queue.Scheduler.csproj" />
+  </ItemGroup>
+
 </Project>

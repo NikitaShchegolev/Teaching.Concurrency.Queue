@@ -1,11 +1,100 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "RabbitMQ.Client/6.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Teaching.Concurrency.Queue.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Teaching.Concurrency.Queue.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Teaching.Concurrency.Queue.DataAccess.dll": {}
+        }
+      },
+      "Teaching.Concurrency.Queue.Handler.Process/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Teaching.Concurrency.Queue.DataAccess": "1.0.0",
+          "Teaching.Concurrency.Queue.Scheduler": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Teaching.Concurrency.Queue.Handler.Process.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Teaching.Concurrency.Queue.Handler.Process.dll": {}
+        }
+      },
+      "Teaching.Concurrency.Queue.Scheduler/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Teaching.Concurrency.Queue.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Teaching.Concurrency.Queue.Scheduler.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Teaching.Concurrency.Queue.Scheduler.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RabbitMQ.Client/6.8.1": {
+      "sha512": "jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "type": "package",
+      "path": "rabbitmq.client/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/RabbitMQ.Client.dll",
+        "lib/net462/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.8.1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "Teaching.Concurrency.Queue.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Teaching.Concurrency.Queue.DataAccess/Teaching.Concurrency.Queue.DataAccess.csproj",
+      "msbuildProject": "../Teaching.Concurrency.Queue.DataAccess/Teaching.Concurrency.Queue.DataAccess.csproj"
+    },
+    "Teaching.Concurrency.Queue.Handler.Process/1.0.0": {
+      "type": "project",
+      "path": "../Teaching.Concurrency.Queue.Handler.Process/Teaching.Concurrency.Queue.Handler.Process.csproj",
+      "msbuildProject": "../Teaching.Concurrency.Queue.Handler.Process/Teaching.Concurrency.Queue.Handler.Process.csproj"
+    },
+    "Teaching.Concurrency.Queue.Scheduler/1.0.0": {
+      "type": "project",
+      "path": "../Teaching.Concurrency.Queue.Scheduler/Teaching.Concurrency.Queue.Scheduler.csproj",
+      "msbuildProject": "../Teaching.Concurrency.Queue.Scheduler/Teaching.Concurrency.Queue.Scheduler.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "RabbitMQ.Client >= 6.8.1",
+      "Teaching.Concurrency.Queue.DataAccess >= 1.0.0",
+      "Teaching.Concurrency.Queue.Handler.Process >= 1.0.0",
+      "Teaching.Concurrency.Queue.Scheduler >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\n.shchegolev\\.nuget\\packages\\": {},
@@ -38,7 +127,17 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.DataAccess\\Teaching.Concurrency.Queue.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.DataAccess\\Teaching.Concurrency.Queue.DataAccess.csproj"
+            },
+            "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Handler.Process\\Teaching.Concurrency.Queue.Handler.Process.csproj": {
+              "projectPath": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Handler.Process\\Teaching.Concurrency.Queue.Handler.Process.csproj"
+            },
+            "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Scheduler\\Teaching.Concurrency.Queue.Scheduler.csproj": {
+              "projectPath": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Scheduler\\Teaching.Concurrency.Queue.Scheduler.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -56,6 +155,12 @@
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.8.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

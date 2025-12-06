@@ -3,7 +3,7 @@
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-using Teaching.Concurrency.Queue.Access;
+using Teaching.Concurrency.Queue.DataAccess;
 using Teaching.Concurrency.Queue.Handler.MessageHandlers;
 using Teaching.Concurrency.Queue.Handler.QueueHandlers;
 

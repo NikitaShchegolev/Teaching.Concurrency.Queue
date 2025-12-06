@@ -1,4 +1,4 @@
-﻿namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Scheduler
+﻿namespace Teaching.Concurrency.Queue.Scheduler
 {
     internal class EventingBasicConsumer
     {

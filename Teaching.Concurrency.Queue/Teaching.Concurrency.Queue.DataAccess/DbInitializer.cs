@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.DataAccess
+namespace Teaching.Concurrency.Queue.DataAccess
 {
     public class DbInitializer
     {

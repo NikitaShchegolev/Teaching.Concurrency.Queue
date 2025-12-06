@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Teaching.Concurrency.Queue.Access
+namespace Teaching.Concurrency.Queue.DataAccess
 {
     public class DataContext : DbContext
     {

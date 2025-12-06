@@ -1,10 +1,10 @@
 ﻿using System.Linq;
 using System.Linq;
 
-using Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.DataAccess;
-using Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Handler.MessageHandlers;
+using Teaching.Concurrency.Queue.DataAccess;
+using Teaching.Concurrency.Queue.Handler.MessageHandlers;
 
-namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Handler.QueueHandlers
+namespace Teaching.Concurrency.Queue.Handler.QueueHandlers
 {
     public class SimpleQueueHandler : IQueueHandler
     {

@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 
-using Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.DataAccess;
+using Teaching.Concurrency.Queue.Handler;
 
-namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Handler.MessageHandlers
+namespace Teaching.Concurrency.Queue.Handler.MessageHandlers
 {
     public class FakeMessageHandler : IQueueMessageHandler
     {

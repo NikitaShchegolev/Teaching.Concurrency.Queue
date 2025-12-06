@@ -1,6 +1,6 @@
-﻿using Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.DataAccess;
+﻿using Teaching.Concurrency.Queue.DataAccess;
 
-namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Handler.MessageHandlers
+namespace Teaching.Concurrency.Queue.Handler.MessageHandlers
 {
     public interface IQueueMessageHandler
     {

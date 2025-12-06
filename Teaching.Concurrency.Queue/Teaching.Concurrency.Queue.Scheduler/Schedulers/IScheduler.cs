@@ -1,4 +1,4 @@
-﻿namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Scheduler.Schedulers
+﻿namespace Teaching.Concurrency.Queue.Scheduler.Schedulers
 {
     public interface IScheduler
     {

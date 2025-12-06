@@ -1,4 +1,4 @@
-﻿namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.DataAccess
+﻿namespace Teaching.Concurrency.Queue.DataAccess
 {
     // Перечисление типов сообщений в очереди
     public enum MessageQueueItemType

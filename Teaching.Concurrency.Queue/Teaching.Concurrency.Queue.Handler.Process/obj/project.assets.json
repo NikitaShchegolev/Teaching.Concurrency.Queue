@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Teaching.Concurrency.Queue.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Teaching.Concurrency.Queue.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Teaching.Concurrency.Queue.DataAccess.dll": {}
+        }
+      },
+      "Teaching.Concurrency.Queue.Scheduler/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Teaching.Concurrency.Queue.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Teaching.Concurrency.Queue.Scheduler.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Teaching.Concurrency.Queue.Scheduler.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Teaching.Concurrency.Queue.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Teaching.Concurrency.Queue.DataAccess/Teaching.Concurrency.Queue.DataAccess.csproj",
+      "msbuildProject": "../Teaching.Concurrency.Queue.DataAccess/Teaching.Concurrency.Queue.DataAccess.csproj"
+    },
+    "Teaching.Concurrency.Queue.Scheduler/1.0.0": {
+      "type": "project",
+      "path": "../Teaching.Concurrency.Queue.Scheduler/Teaching.Concurrency.Queue.Scheduler.csproj",
+      "msbuildProject": "../Teaching.Concurrency.Queue.Scheduler/Teaching.Concurrency.Queue.Scheduler.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Teaching.Concurrency.Queue.DataAccess >= 1.0.0",
+      "Teaching.Concurrency.Queue.Scheduler >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\n.shchegolev\\.nuget\\packages\\": {},
@@ -38,7 +76,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.DataAccess\\Teaching.Concurrency.Queue.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.DataAccess\\Teaching.Concurrency.Queue.DataAccess.csproj"
+            },
+            "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Scheduler\\Teaching.Concurrency.Queue.Scheduler.csproj": {
+              "projectPath": "C:\\Users\\n.shchegolev\\source\\repos\\Teaching.Concurrency.Queue_2\\Teaching.Concurrency.Queue\\Teaching.Concurrency.Queue.Scheduler\\Teaching.Concurrency.Queue.Scheduler.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

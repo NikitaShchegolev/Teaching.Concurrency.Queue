@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 
-using Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Handler;
+using Teaching.Concurrency.Queue.Handler;
 
-namespace Teaching.Concurrency.Queue.Otus.Teaching.Concurrency.Queue.Scheduler.Schedulers
+namespace Teaching.Concurrency.Queue.Scheduler.Schedulers
 {
     public class SimpleScheduler
         : IScheduler

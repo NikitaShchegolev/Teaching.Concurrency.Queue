@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
-using Teaching.Concurrency.Queue.Access;
-using Teaching.Concurrency.Queue.Scheduler.Schedulers;
+using Teaching.Concurrency.Queue.DataAccess;
+using Teaching.Concurrency.Queue.Scheduler;
 
 namespace Teaching.Concurrency.Queue.Scheduler
 {

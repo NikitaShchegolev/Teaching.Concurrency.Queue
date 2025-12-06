@@ -29,7 +29,7 @@ namespace Teaching.Concurrency.Queue.Scheduler
         static IScheduler GetScheduler()
         {
             //Простой планировщик с последовательной обработкой
-            //return new SimpleScheduler();
+            return new SimpleScheduler();
 
             //Планировщик с параллельной обработкой на процессах
             ///return new ProcessesScheduler();

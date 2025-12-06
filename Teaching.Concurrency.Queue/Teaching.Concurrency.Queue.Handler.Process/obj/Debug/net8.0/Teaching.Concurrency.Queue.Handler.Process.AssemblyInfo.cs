@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Teaching.Concurrency.Queue.Handler.Process")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47673da446ea8e1cdb01d9ed47ed30cc4e948126")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89a5641ec6878478ac0212e81871f537f55b3bee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Teaching.Concurrency.Queue.Handler.Process")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Teaching.Concurrency.Queue.Handler.Process")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,5 @@
 <Solution>
   <Folder Name="/src/">
-    <File Path="Teaching.Concurrency.Queue/.gitignore" />
     <Project Path="Teaching.Concurrency.Queue.DataAccess/Teaching.Concurrency.Queue.DataAccess.csproj" />
     <Project Path="Teaching.Concurrency.Queue.Handler.Process/Teaching.Concurrency.Queue.Handler.Process.csproj" />
     <Project Path="Teaching.Concurrency.Queue.Handler/Teaching.Concurrency.Queue.Handler.csproj" />
